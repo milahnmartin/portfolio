@@ -1,3 +1,4 @@
+import { FaDev } from "react-icons/fa";
 const Navbar = () => {
   const scrollToComponent = (component: string) => {
     const element = document.getElementById(component);
@@ -6,12 +7,13 @@ const Navbar = () => {
   return (
     <div className='w-full h-[5rem] text-white font-mono font-black flex p-6 sticky top-0 bg-primary z-[999]'>
       <div className='h-full w-fit flex items-center justify-start '>
-        <img
+        {/* <img
           id='logo'
           src='/logo.jpg'
           alt='logo'
           className='rounded-full w-14 ring-2 ring-secondary cursor-pointer hover:scale-105 animation-all duration-500 hover:drop-shadow-xl'
-        />
+        /> */}
+        <FaDev fill='#64ffda' size={50} />
       </div>
       <div className='h-full w-full flex space-x-6 items-center justify-end text-text'>
         <h1
