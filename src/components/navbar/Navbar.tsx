@@ -13,7 +13,13 @@ const Navbar = () => {
           alt='logo'
           className='rounded-full w-14 ring-2 ring-secondary cursor-pointer hover:scale-105 animation-all duration-500 hover:drop-shadow-xl'
         /> */}
-        <FaDev fill='#64ffda' size={50} />
+        <FaDev
+          id='logo'
+          fill='#64ffda'
+          size={50}
+          onClick={() => scrollToComponent("home-top")}
+          className='cursor-pointer'
+        />
       </div>
       <div className='h-full w-full flex space-x-6 items-center justify-end text-text'>
         <h1
