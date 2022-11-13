@@ -1,11 +1,10 @@
-import Logo from "../../assets/Logo.jpg";
 const Navbar = () => {
   return (
     <div className='w-full h-[5rem] text-white font-mono font-black flex p-6 sticky top-0'>
       <div className='h-full w-fit flex items-center justify-start '>
         <img
           id='logo'
-          src={Logo}
+          src={"/public/logo.jpg"}
           alt='logo'
           className='rounded-full w-14 ring-2 ring-secondary cursor-pointer hover:scale-105 animation-all duration-500 hover:drop-shadow-xl'
         />
