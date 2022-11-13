@@ -1,6 +1,10 @@
 const Navbar = () => {
+  const scrollToComponent = (component: string) => {
+    const element = document.getElementById(component);
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
-    <div className='w-full h-[5rem] text-white font-mono font-black flex p-6 sticky top-0'>
+    <div className='w-full h-[5rem] text-white font-mono font-black flex p-6 sticky top-0 bg-primary z-[999]'>
       <div className='h-full w-fit flex items-center justify-start '>
         <img
           id='logo'
@@ -10,7 +14,10 @@ const Navbar = () => {
         />
       </div>
       <div className='h-full w-full flex space-x-6 items-center justify-end text-text'>
-        <h1 className='hover:text-secondary cursor-pointer animation-all duration-300'>
+        <h1
+          onClick={() => scrollToComponent("about")}
+          className='hover:text-secondary cursor-pointer animation-all duration-300'
+        >
           <span className='text-secondary'>01.</span>About
         </h1>
         <h1 className='hover:text-secondary cursor-pointer animation-all duration-300'>
