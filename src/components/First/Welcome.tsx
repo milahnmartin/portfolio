@@ -6,8 +6,9 @@ const Welcome = () => {
       <h1 className='text-text2 text-7xl font-black'>I build things for the web.</h1>
       <p className='text-text font-mono font-bold'>
         I’m a junior software engineer specializing in building (and occasionally
-        designing) exceptional digital experiences. Currently, I'm focusing on building
-        scalible web and mobile applications, using the latest tech stacks.
+        designing) exceptional digital experiences.
+        <br /> Currently, I'm focusing on building scalible web and mobile applications,
+        using the latest tech stacks.
       </p>
       <button
         onClick={() => window.open("https://github.com/milahnmartin")}

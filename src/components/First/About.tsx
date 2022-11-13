@@ -1,4 +1,4 @@
-import Logo from "../../assets/Logo.jpg";
+import Logo from "../../assets/logo.jpg";
 const About = () => {
   return (
     <div className='w-full h-full font-bold text-3xl font-mono flex flex-col'>
