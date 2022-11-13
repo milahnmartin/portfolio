@@ -22,17 +22,17 @@ const About = () => {
             style={{
               listStyleType: "circle",
             }}
-            className='ml-4 mt-5 text-xl flex flex-wrap justify-start w-[70%] h-fit content-start gap-3'
+            className='ml-4 mt-5 text-xl flex flex-wrap justify-start w-[50%] h-fit content-start gap-3'
           >
-            <li className='mr-2'>Typescript</li>
-            <li className='mr-2'>Python</li>
-            <li className='mr-2'>Vue.js</li>
-            <li className='mr-2'>React.js</li>
-            <li className='mr-2'>Next.js</li>
-            <li className='mr-2'>Golang</li>
-            <li className='mr-2'>Tailwind</li>
-            <li className='mr-2'>Firebase</li>
-            <li className='mr-2'>Supabase</li>
+            <li className='mr-4'>Typescript</li>
+            <li className='mr-4'>Python</li>
+            <li className='mr-4'>Vue.js</li>
+            <li className='mr-4'>React.js</li>
+            <li className='mr-4'>Next.js</li>
+            <li className='mr-4'>Golang</li>
+            <li className='mr-4'>Tailwind</li>
+            <li className='mr-4'>Firebase</li>
+            <li className='mr-4'>Supabase</li>
           </ul>
         </p>
 
