@@ -19,31 +19,31 @@ const About = () => {
             Here are a few tech stacks I've been working with Recently:
           </h1>
           <ul className='ml-4 mt-5 text-xl flex flex-wrap justify-start w-[50%] h-fit content-start gap-3'>
-            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc'>
+            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
               Typescript
             </li>
-            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc'>
+            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
               Python
             </li>
-            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc'>
+            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
               Vue.js
             </li>
-            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc'>
+            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
               React.js
             </li>
             <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc'>
               Next.js
             </li>
-            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc'>
+            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
               Golang
             </li>
-            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc'>
+            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
               Tailwind
             </li>
-            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc'>
+            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
               Firebase
             </li>
-            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc'>
+            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
               Supabase
             </li>
           </ul>
