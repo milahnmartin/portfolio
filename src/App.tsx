@@ -1,6 +1,8 @@
 import "./App.css";
 import About from "./components/First/About";
+import Contacts from "./components/First/Contacts";
 import Experience from "./components/First/Experience";
+import Projects from "./components/First/Projects";
 import Welcome from "./components/First/Welcome";
 import Navbar from "./components/navbar/Navbar";
 import SidebarLeft from "./components/SidebarLeft";
@@ -16,6 +18,8 @@ function App() {
           <Welcome />
           <About />
           <Experience />
+          <Projects />
+          <Contacts />
         </div>
         <div className='h-full w-[5%] flex flex-col items-center justify-center py-4 text-text-2'>
           <pre className='rotate-90 text-text2'>milahnmartin.develop@gmail.com</pre>

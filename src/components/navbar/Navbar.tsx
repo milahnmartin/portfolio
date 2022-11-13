@@ -28,7 +28,10 @@ const Navbar = () => {
         >
           <span className='text-secondary'>01.</span>About
         </h1>
-        <h1 className='hover:text-secondary cursor-pointer animation-all duration-300'>
+        <h1
+          onClick={() => scrollToComponent("experience")}
+          className='hover:text-secondary cursor-pointer animation-all duration-300'
+        >
           <span className='text-secondary'>02.</span>Experience
         </h1>
         <h1 className='hover:text-secondary cursor-pointer animation-all duration-300'>
