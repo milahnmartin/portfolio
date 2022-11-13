@@ -1,11 +1,11 @@
 import "./App.css";
-import About from "./components/First/About";
-import Contacts from "./components/First/Contacts";
-import Experience from "./components/First/Experience";
-import Projects from "./components/First/Projects";
-import Welcome from "./components/First/Welcome";
+import About from "./components/About";
+import Contacts from "./components/Contacts";
+import Experience from "./components/Experience";
 import Navbar from "./components/navbar/Navbar";
+import Projects from "./components/Projects";
 import SidebarLeft from "./components/SidebarLeft";
+import Welcome from "./components/Welcome";
 function App() {
   return (
     <div className='h-screen w-screen bg-primary overflow-hidden font-mono flex flex-col'>
