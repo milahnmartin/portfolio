@@ -34,10 +34,16 @@ const Navbar = () => {
         >
           <span className='text-secondary'>02.</span>Experience
         </h1>
-        <h1 className='hover:text-secondary cursor-pointer animation-all duration-300'>
+        <h1
+          onClick={() => scrollToComponent("projects")}
+          className='hover:text-secondary cursor-pointer animation-all duration-300'
+        >
           <span className='text-secondary'>03.</span>Projects
         </h1>
-        <h1 className='hover:text-secondary cursor-pointer animation-all duration-300'>
+        <h1
+          onClick={() => scrollToComponent("contacts")}
+          className='hover:text-secondary cursor-pointer animation-all duration-300'
+        >
           <span className='text-secondary'>04.</span>Contact
         </h1>
         <button className='px-4 py-2 outline-none animation-all duration-300 border-[1px] border-secondary rounded-md text-secondary hover:bg-secondary/10'>
