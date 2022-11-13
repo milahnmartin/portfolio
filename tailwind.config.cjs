@@ -8,6 +8,7 @@ module.exports = {
       secondary: "#64ffda",
       text: "#ccd6f6",
       text2: "#495670",
+      secondaryHue: "hsl(166, 100%, 70%)",
     },
   },
 };
