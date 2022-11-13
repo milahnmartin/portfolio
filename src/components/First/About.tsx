@@ -39,7 +39,7 @@ const About = () => {
         <div className='inline h-fit w-[35%] rounded-xl p-2 animation-all duration-700 relative z-[500]'>
           <img
             className='rounded-md hue-rotate-180 hover:filter-none group animation-all duration-250 group'
-            src={"/public/logo.jpg"}
+            src='/logo.jpg'
           />
           <span className='absolute w-[100%] h-[95%] border-2 border-secondary -right-4 -bottom-4 rounded-md z-[-1] group-hover:-right-0'></span>
         </div>

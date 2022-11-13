@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className='h-full w-fit flex items-center justify-start '>
         <img
           id='logo'
-          src={"/public/logo.jpg"}
+          src='/logo.jpg'
           alt='logo'
           className='rounded-full w-14 ring-2 ring-secondary cursor-pointer hover:scale-105 animation-all duration-500 hover:drop-shadow-xl'
         />
