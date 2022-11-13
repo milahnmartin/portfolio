@@ -33,7 +33,7 @@ const Projects = () => {
     {
       image: "/phase-three-main.png",
       title: "Phase Three Admin Panel",
-      techstack: ["Firebase", "React", "Javascript", "Material UI"],
+      techstack: ["Firebase", "React", "Javascript", "Material UI", "Redux"],
       link: "https://github.com/milahnmartin/Phase-Three-AdminPanel",
       slogan: "Admin Panel To Handle Clients Subscriptions",
     },
@@ -63,7 +63,7 @@ const Projects = () => {
         <span className='text-secondary text-2xl'>03.</span>Projects
         <hr className='w-[10rem] text-text2' />
       </h1>
-      <div className='flex w-full flex-col pt-6 justify-start items-center h-full overflow-y-scroll border-2'>
+      <div className='flex w-full flex-col pt-6 justify-start items-center h-full overflow-y-scroll'>
         {projectData!.map((project: ProjectData) => (
           <ProjectLabel
             key={project.title}
