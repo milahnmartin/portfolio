@@ -29,7 +29,10 @@ const NormalViewNav = () => {
       >
         <span className='text-secondary'>04.</span>Contact
       </h1>
-      <button className='px-4 py-2 outline-none animation-all duration-300 border-[1px] border-secondary rounded-md text-secondary hover:bg-secondary/10'>
+      <button
+        onClick={() => window.open("/milahn-martin-resume.pdf")}
+        className='px-4 py-2 outline-none animation-all duration-300 border-[1px] border-secondary rounded-md text-secondary hover:bg-secondary/10'
+      >
         Resume
       </button>
     </div>
