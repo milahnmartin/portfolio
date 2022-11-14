@@ -13,6 +13,7 @@ const ProjectLabel = ({ title, image, techstack, link, slogan }: ProjectData) =>
       className='w-[80%] h-fit flex flex-col justify-center space-y-4 mb-10'
     >
       <img
+        title='View Project'
         src={image}
         className='cursor-pointer blur-sm hover:blur-none animation-all duration-500 h-[500px] w-auto object-contain rounded-md'
       />
