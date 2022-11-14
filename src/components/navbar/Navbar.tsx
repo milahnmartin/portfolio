@@ -28,7 +28,7 @@ const Navbar = () => {
     element?.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className='w-full h-[5rem] text-white font-mono font-black flex p-6 sticky top-0 bg-primary z-[999]'>
+    <div className='w-full h-[10vh] text-white font-mono font-black flex p-6 sticky top-0 bg-primary z-[999]'>
       <div className='h-full w-fit flex items-center justify-start '>
         {/* <img
           id='logo'

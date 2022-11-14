@@ -13,7 +13,15 @@ const Projects = () => {
     {
       image: "/lsplanner.png",
       title: "LS Planner",
-      techstack: ["Next.js", "TailwindCSS", "TypeScript", "Firebase", "Supabase"],
+      techstack: [
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript",
+        "Firebase",
+        "Supabase",
+        "React-Query / Tanstack Query",
+        "React-Icons",
+      ],
       github: "https://github.com/milahnmartin/eskom-time-compiler",
       link: "https://lsplanner.info",
       slogan: "Plan Your Meetings and Gaming Sessions around LoadShedding",
@@ -90,10 +98,10 @@ const Projects = () => {
   return (
     <div
       id='projects'
-      className='w-full h-fit font-bold text-3xl font-mono flex flex-col mb-10 items-center justify-start mt-10'
+      className='w-full h-fit font-bold text-3xl font-mono flex flex-col items-center justify-start'
     >
       <h1 className='text-text flex items-center justify-start space-x-4'>
-        <span className='text-secondary text-2xl'>03.</span>Projects
+        <span className='text-secondary text-2xl'>02.</span>Projects
         <hr className='w-[10rem] text-text2' />
       </h1>
       <div className='flex w-full px-10 h-full p-4 gap-3 flex-wrap content-center justify-center'>
