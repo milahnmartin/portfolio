@@ -1,4 +1,7 @@
 const Welcome = () => {
+  const handleGithubClick = () => {
+    window.open("https://github.com/milahnmartin", "_blank");
+  };
   return (
     <div
       id='home-top'
@@ -17,7 +20,7 @@ const Welcome = () => {
       </p>
       <button
         id='about'
-        onClick={() => window.open("https://github.com/milahnmartin")}
+        onClick={handleGithubClick}
         className='px-6 py-4 outline-none animation-all duration-300 border-[1px] border-secondary rounded-md text-secondary hover:bg-secondary/10'
       >
         Checkout my github !

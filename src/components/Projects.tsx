@@ -53,6 +53,15 @@ const Projects = () => {
       slogan:
         "Don't Know When game servers are offline ? This app will automatically detect change and make a tweet.",
     },
+    {
+      image: "/portfolio.png",
+      title: "Portfolio Website",
+      techstack: ["React", "Typescript", "TaildwindCSS", "Vite"],
+
+      link: "https://github.com/milahnmartin/portfolio/",
+      slogan:
+        "Portfolio Website Made With React, TailwindCSS and Typescript, Click to view source code.",
+    },
   ];
   return (
     <div

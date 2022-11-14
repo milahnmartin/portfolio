@@ -10,6 +10,9 @@ interface ProjectData {
 
 const ProjectLabel = ({ title, image, techstack, link, slogan }: ProjectData) => {
   const [view, setView] = useState<boolean>(false);
+  const handleLinkClick = () => {
+    window.open(link, "_blank");
+  };
   return (
     <div
       onClick={() => window.open(link)}
