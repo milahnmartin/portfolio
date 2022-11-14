@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 interface ProjectData {
   image: string;
@@ -10,13 +10,10 @@ interface ProjectData {
 
 const ProjectLabel = ({ title, image, techstack, link, slogan }: ProjectData) => {
   const [view, setView] = useState<boolean>(false);
-  useEffect(() => {
-    console.log(view);
-  }, []);
   return (
     <div
       onClick={() => window.open(link)}
-      className='w-[80%] h-fit flex flex-col justify-center items-center space-y-4 mb-10 relative'
+      className='w-[80%] h-fit flex flex-col justify-center items-center space-y-10 relative md:mb-10 md:space-y-10'
     >
       <img
         onMouseOver={() => setView(true)}
