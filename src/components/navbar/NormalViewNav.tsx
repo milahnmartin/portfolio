@@ -11,23 +11,23 @@ const NormalViewNav = () => {
       >
         <span className='text-secondary'>01.</span>About
       </h1>
-      <h1
+      {/* <h1
         onClick={() => scrollToComponent("experience")}
         className='hover:text-secondary cursor-pointer animation-all duration-300'
       >
         <span className='text-secondary'>02.</span>Experience
-      </h1>
+      </h1> */}
       <h1
         onClick={() => scrollToComponent("projects")}
         className='hover:text-secondary cursor-pointer animation-all duration-300'
       >
-        <span className='text-secondary'>03.</span>Projects
+        <span className='text-secondary'>02.</span>Projects
       </h1>
       <h1
         onClick={() => scrollToComponent("contacts")}
         className='hover:text-secondary cursor-pointer animation-all duration-300'
       >
-        <span className='text-secondary'>04.</span>Contact
+        <span className='text-secondary'>03.</span>Contact
       </h1>
       <button
         onClick={() => window.open("/milahn-martin-resume.pdf")}

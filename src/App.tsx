@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import About from "./components/About";
 import Contacts from "./components/Contacts";
-import Experience from "./components/Experience";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/Projects";
 import SidebarLeft from "./components/SidebarLeft";
@@ -27,7 +26,6 @@ function App() {
         >
           <Welcome />
           <About />
-          <Experience />
           <Projects />
           <Contacts />
         </div>

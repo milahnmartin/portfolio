@@ -15,3 +15,11 @@ html {
 #data-container {
   -webkit-overflow-scrolling: touch;
 }
+
+.project-view {
+  transition: transform 0.5s;
+}
+
+.project-view:hover {
+  transform: translateY(-5px);
+}

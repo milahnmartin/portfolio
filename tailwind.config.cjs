@@ -9,6 +9,7 @@ module.exports = {
       text: "#ccd6f6",
       text2: "#495670",
       secondaryHue: "hsl(166, 100%, 70%)",
+      navy2: "#112240;",
     },
   },
 };
