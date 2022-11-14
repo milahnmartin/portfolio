@@ -23,7 +23,7 @@ function App() {
         </div>
         <div
           id='data-container'
-          className='h-[90%] w-full px-4 md:w-[90%] md:overflow-y-scroll'
+          className='h-full w-full px-4 md:w-[90%] md:overflow-y-scroll'
         >
           <Welcome />
           <About />

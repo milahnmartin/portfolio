@@ -2,11 +2,13 @@ const Welcome = () => {
   return (
     <div
       id='home-top'
-      className='flex items-start justify-center flex-col h-full space-y-4'
+      className='flex items-start justify-center flex-col w-full h-full space-y-4 border-2'
     >
       <span className='text-secondary text-1xl'>Hi, my name is</span>
-      <h1 className='text-text text-7xl font-bold'>Milahn Martin</h1>
-      <h1 className='text-text2 text-7xl font-black'>I build things for the web.</h1>
+      <h1 className='text-text text-6xl font-bold md:text-7xl'>Milahn Martin</h1>
+      <h1 className='text-text2 text-5xl font-black md:text-7xl'>
+        I build things for the web.
+      </h1>
       <p className='text-text font-mono font-bold'>
         I’m a junior software engineer specializing in building (and occasionally
         designing) exceptional digital experiences.
