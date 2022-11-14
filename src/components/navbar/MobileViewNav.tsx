@@ -27,7 +27,7 @@ const MobileViewNav = () => {
         />
       )}
       {open && (
-        <div className='h-screen w-screen flex flex-col items-center p-4 justify-center text-center text-text bg-text2 m-auto absolute top-0 right-0 space-y-6 border-2'>
+        <div className='h-screen w-screen flex flex-col items-center p-4 justify-center text-center text-text bg-text2 m-auto absolute top-0 right-0 space-y-6'>
           <h1
             onClick={() => scrollToComponent("about")}
             className='hover:text-secondary cursor-pointer animation-all duration-300'
