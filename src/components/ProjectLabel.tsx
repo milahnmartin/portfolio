@@ -15,7 +15,7 @@ const ProjectLabel = ({ title, image, techstack, link, slogan }: ProjectData) =>
       <img
         title='View Project'
         src={image}
-        className='cursor-pointer blur-sm hover:blur-none animation-all duration-500 h-[500px] w-auto object-contain rounded-md'
+        className='cursor-pointer animation-all duration-500 h-[500px] w-auto object-contain rounded-md'
       />
       <div className='flex flex-col items-center justify-start font-mono text-center space-y-4'>
         <h1 className='text-secondary tracking-widest text-3xl font-mono'>{title}</h1>
