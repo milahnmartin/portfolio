@@ -66,12 +66,12 @@ const Projects = () => {
       <div className='flex w-full flex-col pt-6 justify-start items-center h-full overflow-y-scroll'>
         {projectData!.map((project: ProjectData) => (
           <ProjectLabel
-            key={project.title}
+            key={project?.title}
             image={project?.image}
             title={project?.title}
             techstack={project.techstack}
-            link={project.link}
-            slogan={project.slogan}
+            link={project?.link}
+            slogan={project?.slogan}
           />
         ))}
       </div>
