@@ -18,17 +18,17 @@ function App() {
     <div className='h-screen w-screen bg-primary overflow-hidden font-mono flex flex-col'>
       <Navbar />
       <div className='w-full h-full flex'>
-        <div className='h-full w-[5%] flex flex-col items-center justify-center py-4 text-text-2'>
+        <div className='h-full w-[5%] flex-col items-center justify-center py-4 text-text-2 hidden md:flex'>
           <SidebarLeft />
         </div>
-        <div className='h-full w-[90%] overflow-x-hidden overflow-y-scroll  px-4'>
+        <div className='h-full w-full overflow-x-hidden overflow-y-scroll  px-4 md:w-[90%]'>
           <Welcome />
           <About />
           <Experience />
           <Projects />
           <Contacts />
         </div>
-        <div className='h-full w-[5%] flex flex-col items-center justify-center py-4 text-text-2'>
+        <div className='h-full w-[5%] flex-col items-center justify-center py-4 text-text-2 hidden md:flex'>
           <SidebarRight />
         </div>
       </div>
