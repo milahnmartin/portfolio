@@ -2,7 +2,7 @@ const Welcome = () => {
   return (
     <div
       id='home-top'
-      className='flex items-start justify-center flex-col w-full h-full space-y-4 border-2'
+      className='flex items-start justify-center flex-col w-full h-full space-y-4'
     >
       <span className='text-secondary text-1xl'>Hi, my name is</span>
       <h1 className='text-text text-6xl font-bold md:text-7xl'>Milahn Martin</h1>
