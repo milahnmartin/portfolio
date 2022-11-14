@@ -15,13 +15,16 @@ function App() {
     setLoading(true);
   }, []);
   return (
-    <div className='h-screen w-screen bg-primary overflow-hidden font-mono flex flex-col'>
+    <div className='h-screen w-screen bg-primary overflow-x-hidden overflow-y-scroll md:overflow-y-hidden font-mono flex flex-col'>
       <Navbar />
       <div className='w-full h-full flex'>
         <div className='h-full w-[5%] flex-col items-center justify-center py-4 text-text-2 hidden md:flex'>
           <SidebarLeft />
         </div>
-        <div className='h-full w-full overflow-x-hidden overflow-y-scroll  px-4 md:w-[90%]'>
+        <div
+          id='data-container'
+          className='h-[90%] w-full px-4 md:w-[90%] md:overflow-y-scroll'
+        >
           <Welcome />
           <About />
           <Experience />
