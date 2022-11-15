@@ -5,8 +5,8 @@ const About = () => {
         <span className='text-secondary text-2xl'>01.</span>About Me
         <hr className='w-[10rem] text-text2' />
       </h1>
-      <div className='flex w-full pt-6'>
-        <p className='text-text2 text-2xl w-[60%] px-4 text-left'>
+      <div className='flex w-full pt-6 flex-col md:flex-row'>
+        <p className='text-text2 text-2xl w-full px-4 text-left md:w-[60%]'>
           I'm Milahn Martin, a third year Software Engineering Student at Eduvos in
           Pretoria. I'm finishing my degree this year (2022) and will pursue a Honours
           degree in 2023. I love exploring new tech stacks and collaborating with other
@@ -59,12 +59,12 @@ const About = () => {
           </ul>
         </p>
 
-        <div className='inline h-fit w-[35%] rounded-xl p-2 animation-all duration-700 relative z-[500]'>
+        <div className='inline h-fit w-full rounded-xl p-2 animation-all duration-700 relative z-[500] md:w-[35%]'>
           <img
-            className='rounded-md hue-rotate-180 hover:filter-none group animation-all duration-500 group'
+            className='rounded-md hover:filter-none group animation-all duration-500 group md:hue-rotate-180'
             src='/logo.jpg'
           />
-          <span className='absolute w-[70%] h-[95%] border-2 border-secondary right-[5rem] -bottom-4 rounded-md z-[-1]'></span>
+          <span className='absolute w-[100%] h-[95%] border-2 border-secondary right-[-0.6rem] -bottom-4 rounded-md z-[-1] md:w-[70%] md:right-[5rem]'></span>
         </div>
       </div>
     </div>

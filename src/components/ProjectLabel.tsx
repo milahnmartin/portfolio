@@ -20,7 +20,7 @@ const ProjectLabel = ({ title, image, techstack, link, slogan, github }: Project
     window.open(link, "_blank");
   };
   return (
-    <div className='w-[400px] h-[300px] relative flex flex-col items-center justify-center bg-navy2 rounded-md p-4 group cursor-pointer project-view'>
+    <div className='w-[400px] h-[400px] relative flex flex-col items-center justify-center bg-navy2 rounded-md p-4 group cursor-pointer project-view'>
       <div className='w-full h-fit flex items-center justify-around'>
         <div className='w-1/2 h-full flex items-center justify-start'>
           <CiFolderOn className='w-1/2 flex cursor-pointer' fill='#64ffda' size={50} />
