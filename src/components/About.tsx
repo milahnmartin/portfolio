@@ -8,7 +8,7 @@ const About = () => {
       <div className='flex w-full pt-6'>
         <p className='text-text2 text-2xl w-[60%] px-4 text-left'>
           I'm Milahn Martin, a third year Software Engineering Student at Eduvos in
-          Pretoria. I'm finishing my degree this year (2022) and will pursue a Honors
+          Pretoria. I'm finishing my degree this year (2022) and will pursue a Honours
           degree in 2023. I love exploring new tech stacks and collaborating with other
           developers. I built tons of projects in my free time and can be viewed on my
           github - https://github.com/ milahnmartin. When im not working on projects I
