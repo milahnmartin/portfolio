@@ -15,7 +15,7 @@ const Welcome = () => {
       <p className='text-text font-mono font-bold'>
         I’m a junior software engineer specializing in building (and occasionally
         designing) exceptional digital experiences.
-        <br /> Currently, I'm focusing on building scalible web and mobile applications,
+        <br /> Currently, I'm focusing on building scalable web and mobile applications,
         using the latest tech stacks.
       </p>
       <button
