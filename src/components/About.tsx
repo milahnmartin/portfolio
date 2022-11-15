@@ -16,7 +16,7 @@ const About = () => {
           love hiking.
           <br />
           <h1 className='pt-10 text-text font-mono font-light text-xl'>
-            Here are a few tech stacks I've been working with Recently:
+            Here are a few technologies I've been working with Recently:
           </h1>
           <ul className='ml-4 mt-5 text-xl flex flex-wrap justify-start w-[50%] h-fit content-start gap-3'>
             <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
@@ -34,11 +34,14 @@ const About = () => {
             <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc'>
               Next.js
             </li>
+            <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc'>
+              Vite.js
+            </li>
             <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
               Golang
             </li>
             <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
-              Tailwind
+              TailwindCSS
             </li>
             <li className='mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105'>
               Firebase
