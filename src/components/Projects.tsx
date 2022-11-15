@@ -69,7 +69,7 @@ const Projects = () => {
       link: "https://milahnmartindev.me",
       github: "https://github.com/milahnmartin/portfolio/",
       slogan:
-        "Portfolio Website Made With React, TailwindCSS and Typescript, Click to view source code.",
+        "Portfolio Website you are currently on. This showcases information about myself.",
     },
     {
       image: "/twitch.jpg",
