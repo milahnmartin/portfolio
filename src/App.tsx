@@ -18,12 +18,12 @@ function App() {
     <div className='h-screen w-screen bg-primary overflow-x-hidden font-mono flex flex-col'>
       <Navbar />
       <div className='w-full h-full flex'>
-        <div className='h-full w-[5%] flex-col items-center justify-center py-4 text-text-2 hidden md:flex'>
+        <div className='h-[90vh] w-[5%] flex-col items-center justify-center text-text-2 hidden md:flex'>
           <SidebarLeft />
         </div>
         <div
           id='data-container'
-          className='h-full w-full px-4 md:w-[90%] md:overflow-y-scroll space-y-56'
+          className='h-[90vh] w-full px-4 md:w-[90%] md:overflow-y-scroll space-y-56'
         >
           <Welcome />
           <About />
@@ -31,7 +31,7 @@ function App() {
           <Contacts />
           <Footer />
         </div>
-        <div className='h-full w-[5%] flex-col items-center justify-center py-4 text-text-2 hidden md:flex'>
+        <div className='h-[90vh] w-[5%] flex-col items-center justify-center text-text-2 hidden md:flex'>
           <SidebarRight />
         </div>
       </div>

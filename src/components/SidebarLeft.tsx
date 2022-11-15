@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 const SidebarLeft = () => {
   return (
-    <div className='flex flex-col space-y-6'>
+    <div className='flex flex-col space-y-6 h-fit w-fit'>
       <AiFillGithub
         className='cursor-pointer hover:scale-110 transition-all duration-100'
         size={30}
