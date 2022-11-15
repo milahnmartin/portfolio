@@ -10,10 +10,17 @@ const About = () => {
           I'm Milahn Martin, a third year Software Engineering Student at Eduvos in
           Pretoria. I'm finishing my degree this year (2022) and will pursue a Honours
           degree in 2023. I love exploring new tech stacks and collaborating with other
-          developers. I built tons of projects in my free time and can be viewed on my
-          github - https://github.com/ milahnmartin. When im not working on projects I
-          like playing various amount of sports like tennis, cricket and rugby and also
-          love hiking.
+          developers. I built tons of projects in my free time and can be viewed on my{" "}
+          <a
+            id='github-about'
+            target='_blank'
+            className='text-secondary font-mono'
+            href='https://github.com/milahnmartin'
+          >
+            github
+          </a>
+          . When im not working on projects I like playing various amount of sports like
+          tennis, cricket and rugby and also love hiking.
           <br />
           <h1 className='pt-10 text-text font-mono font-light text-xl'>
             Here are a few technologies I've been working with Recently:
