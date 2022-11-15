@@ -12,14 +12,14 @@ const Projects = () => {
   const projectData: ProjectData[] = [
     {
       image: "/lsplanner.png",
-      title: "LS Planner",
+      title: "LS Planner (In Dev)",
       techstack: [
         "Next.js",
         "TailwindCSS",
         "TypeScript",
         "Firebase",
         "Supabase",
-        "React-Query / Tanstack Query",
+        "Tanstack Query",
         "React-Icons",
       ],
       github: "https://github.com/milahnmartin/eskom-time-compiler",
@@ -57,7 +57,7 @@ const Projects = () => {
     {
       image: "/python-logo.png",
       title: "Python Twitter Automation",
-      techstack: ["Python", "Tweepy", "TypeScript"],
+      techstack: ["Python", "Tweepy"],
       github: "https://github.com/milahnmartin/fp-automation/",
       slogan:
         "Don't Know When game servers are offline ? This app will automatically detect change and make a tweet.",
@@ -66,6 +66,7 @@ const Projects = () => {
       image: "/portfolio.png",
       title: "Portfolio Website",
       techstack: ["React", "Typescript", "TaildwindCSS", "Vite"],
+      link: "https://milahnmartindev.me",
       github: "https://github.com/milahnmartin/portfolio/",
       slogan:
         "Portfolio Website Made With React, TailwindCSS and Typescript, Click to view source code.",
