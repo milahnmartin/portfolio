@@ -4,6 +4,7 @@ import {
   AiFillLinkedin,
   AiFillTwitterCircle,
 } from "react-icons/ai";
+import { FaDiscord } from "react-icons/fa";
 const SidebarLeft = () => {
   return (
     <div className='flex flex-col space-y-6 h-fit w-fit'>
@@ -32,6 +33,12 @@ const SidebarLeft = () => {
         size={30}
         fill='#495670'
         onClick={() => window.open("https://www.instagram.com/milahnmartin/")}
+      />
+      <FaDiscord
+        className='cursor-pointer hover:scale-110 transition-all duration-100'
+        size={30}
+        fill='#495670'
+        onClick={() => window.open("https://discord.gg/bEMCvhtMCq")}
       />
     </div>
   );
