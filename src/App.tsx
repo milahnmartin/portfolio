@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./App.css";
 import About from "./components/About";
 import Contacts from "./components/Contacts";
@@ -9,11 +8,6 @@ import SidebarLeft from "./components/SidebarLeft";
 import SidebarRight from "./components/SidebarRight";
 import Welcome from "./components/Welcome";
 function App() {
-  const [loading, setLoading] = useState<boolean>(true);
-
-  useEffect(() => {
-    setLoading(true);
-  }, []);
   return (
     <div className='h-screen w-screen bg-primary overflow-x-hidden font-mono flex flex-col'>
       <Navbar />
