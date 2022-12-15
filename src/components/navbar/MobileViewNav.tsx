@@ -6,6 +6,7 @@ const MobileViewNav = () => {
   const scrollToComponent = (component: string) => {
     const element = document.getElementById(component);
     element?.scrollIntoView({ behavior: "smooth" });
+    setOpen(false);
   };
   return (
     <div className='h-screen w-screen flex items-start justify-end'>
@@ -27,34 +28,37 @@ const MobileViewNav = () => {
         />
       )}
       {open && (
-        <div className='h-screen w-screen flex flex-col items-center p-4 justify-center text-center text-text bg-text2 m-auto absolute top-0 right-0 space-y-6'>
+        <div className='h-screen w-screen flex flex-col items-center p-2 justify-center text-center text-text bg-primary m-auto absolute top-0 right-0 space-y-16'>
           <h1
             onClick={() => scrollToComponent("about")}
-            className='hover:text-secondary cursor-pointer animation-all duration-300'
+            className='hover:text-secondary cursor-pointer animation-all duration-300 w-[35%] flex items-center justify-start tracking-widest'
           >
-            <span className='text-secondary'>01.</span>About
+            <span className='text-secondary w-[20%] flex justify-start tracking-normal'>
+              01.
+            </span>
+            <span className='w-full'>About</span>
           </h1>
-          {/* <h1
-            onClick={() => scrollToComponent("experience")}
-            className='hover:text-secondary cursor-pointer animation-all duration-300'
-          >
-            <span className='text-secondary'>02.</span>Experience
-          </h1> */}
           <h1
             onClick={() => scrollToComponent("projects")}
-            className='hover:text-secondary cursor-pointer animation-all duration-300'
+            className='hover:text-secondary cursor-pointer animation-all duration-300 w-[35%] flex items-center justify-center'
           >
-            <span className='text-secondary'>02.</span>Projects
+            <span className='text-secondary w-[20%] flex justify-start tracking-normal'>
+              02.
+            </span>
+            <span className='w-full'>Projects</span>
           </h1>
           <h1
             onClick={() => scrollToComponent("contacts")}
-            className='hover:text-secondary cursor-pointer animation-all duration-300'
+            className='hover:text-secondary cursor-pointer animation-all duration-300 w-[35%] flex items-center justify-center tracking-widest'
           >
-            <span className='text-secondary'>03.</span>Contact
+            <span className='text-secondary w-[20%] flex justify-start tracking-normal'>
+              03.
+            </span>
+            <span className='w-full'>Contact</span>
           </h1>
           <button
             onClick={() => window.open("/milahn-martin-resume.pdf")}
-            className='px-4 py-2 outline-none animation-all duration-300 border-[1px] border-secondary rounded-md text-secondary hover:bg-secondary/10'
+            className='px-4 py-2 outline-none animation-all duration-300 border-[1px] w-[50%] border-secondary rounded-md text-secondary hover:bg-secondary/10'
           >
             Resume
           </button>
