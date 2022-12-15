@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+import Lottie from "react-lottie-player";
 import "./App.css";
+import lottieJson from "./assets/98093-pool-chart-loading.json";
 import About from "./components/About";
 import Contacts from "./components/Contacts";
 import Footer from "./components/footer/Footer";
@@ -12,8 +14,25 @@ function App() {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    setLoading(true);
+    const myLoadingTimeout = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(myLoadingTimeout);
   }, []);
+
+  if (loading) {
+    return (
+      <div className='w-screen h-screen bg-primary flex justify-center items-center'>
+        <Lottie
+          loop
+          animationData={lottieJson}
+          play
+          style={{ width: 300, height: 300 }}
+        />
+      </div>
+    );
+  }
   return (
     <div className='h-screen w-screen bg-primary overflow-x-hidden font-mono flex flex-col'>
       <Navbar />
