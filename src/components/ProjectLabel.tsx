@@ -3,7 +3,6 @@ import { CiFolderOn } from "react-icons/ci";
 import { FiExternalLink } from "react-icons/fi";
 import { RiGithubLine } from "react-icons/ri";
 interface ProjectData {
-  image: string;
   title: string;
   techstack: string[];
   link?: string;
@@ -11,7 +10,7 @@ interface ProjectData {
   github?: string;
 }
 
-const ProjectLabel = ({ title, image, techstack, link, slogan, github }: ProjectData) => {
+const ProjectLabel = ({ title, techstack, link, slogan, github }: ProjectData) => {
   const [view, setView] = useState<boolean>(false);
   const handleGithub = () => {
     window.open(github, "_blank");
