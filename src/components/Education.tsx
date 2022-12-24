@@ -12,7 +12,7 @@ const MyEducation: EducationData[] = [
     grade: "Cum Laude (90%)",
     year_finished: new Date("2022-12-9"),
     description:
-      "Finished My Bachelors Degree in Information Technology Major in Software Engineering in 2023 and will be graduating with a Cum Laude (90%), thereafter I will continue with my studies in 2024 when I pursue a Honours degree.",
+      "Finished My Bachelors Degree in Information Technology Majoring in Software Engineering in 2023 and will be graduating with a Cum Laude (90%), thereafter I will continue with my studies in 2024 when I pursue a Honours degree.",
   },
 ];
 
@@ -63,7 +63,7 @@ function EducationLabel(props: EducationData) {
         </h1>
         <h1 className='flex items-center justify-center gap-2 text-2xl'>
           <BsCheck2 className='cursor-pointer hover:animate-spin' color='#64ffda' />
-          Completed: {props.year_finished.toDateString()}
+          Completed: {props.year_finished.toDateString() || "Fri Dec 09 2022"}
         </h1>
       </div>
       <p className='text-text2 text-lg px-20 hover:text-secondary cursor-pointer transition-colors duration-700 text-center'>
