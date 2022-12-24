@@ -41,6 +41,6 @@ html {
   background-size: 100% 2px;
 }
 
-.container::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
