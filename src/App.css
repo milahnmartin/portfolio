@@ -6,6 +6,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
 }
 
 html {
@@ -37,4 +39,8 @@ html {
 #github-about:hover {
   background-position: 100% 100%;
   background-size: 100% 2px;
+}
+
+.container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
