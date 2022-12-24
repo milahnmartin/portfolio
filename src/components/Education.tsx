@@ -12,7 +12,7 @@ const MyEducation: EducationData[] = [
     grade: "Cum Laude (90%)",
     year_finished: new Date("2022-12-9"),
     description:
-      "Finished My Bachelors Degree in Information Technology Majoring in Software Engineering in 2023 and will be graduating with a Cum Laude (90%), thereafter I will continue with my studies in 2024 when I pursue a Honours degree.",
+      "Finished My Bachelors Degree in Information Technology Majoring in Software Engineering in 2022 and will be graduating with a Cum Laude (90%), thereafter I will continue with my studies in 2023 when I pursue a Honours degree.",
   },
 ];
 
