@@ -24,11 +24,18 @@ const NormalViewNav = () => {
         <span className='text-secondary'>02.</span>Projects
       </h1>
       <h1
+        onClick={() => scrollToComponent("education")}
+        className='hover:text-secondary cursor-pointer animation-all duration-300'
+      >
+        <span className='text-secondary'>03.</span>Education
+      </h1>
+      <h1
         onClick={() => scrollToComponent("contacts")}
         className='hover:text-secondary cursor-pointer animation-all duration-300'
       >
-        <span className='text-secondary'>03.</span>Contact
+        <span className='text-secondary'>04.</span>Contact
       </h1>
+
       <button
         onClick={() => window.open("/milahn-martin-resume.pdf")}
         className='px-4 py-2 outline-none animation-all duration-300 border-[1px] border-secondary rounded-md text-secondary hover:bg-secondary/10'

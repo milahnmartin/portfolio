@@ -3,7 +3,7 @@ interface ProjectData {
   title: string;
   techstack: string[];
   link?: string;
-  github?: string;
+  github: string;
   slogan: string;
 }
 const projectData: ProjectData[] = [

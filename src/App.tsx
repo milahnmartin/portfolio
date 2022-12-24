@@ -4,12 +4,13 @@ import "./App.css";
 import lottieJson from "./assets/98093-pool-chart-loading.json";
 import About from "./components/About";
 import Contacts from "./components/Contacts";
-import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/Navbar";
+import Education from "./components/Education";
 import Projects from "./components/Projects";
 import SidebarLeft from "./components/SidebarLeft";
 import SidebarRight from "./components/SidebarRight";
 import Welcome from "./components/Welcome";
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
 
@@ -47,6 +48,7 @@ function App() {
           <Welcome />
           <About />
           <Projects />
+          <Education />
           <Contacts />
           <Footer />
         </div>

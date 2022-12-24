@@ -48,11 +48,20 @@ const MobileViewNav = () => {
             <span className='w-full'>Projects</span>
           </h1>
           <h1
-            onClick={() => scrollToComponent("contacts")}
+            onClick={() => scrollToComponent("education")}
             className='hover:text-secondary cursor-pointer animation-all duration-300 w-[35%] flex items-center justify-center tracking-widest'
           >
             <span className='text-secondary w-[20%] flex justify-start tracking-normal'>
               03.
+            </span>
+            <span className='w-full'>Education</span>
+          </h1>
+          <h1
+            onClick={() => scrollToComponent("contacts")}
+            className='hover:text-secondary cursor-pointer animation-all duration-300 w-[35%] flex items-center justify-center tracking-widest'
+          >
+            <span className='text-secondary w-[20%] flex justify-start tracking-normal'>
+              04.
             </span>
             <span className='w-full'>Contact</span>
           </h1>
