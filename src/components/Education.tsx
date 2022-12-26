@@ -8,7 +8,7 @@ type EducationData = {
 const MyEducation: EducationData[] = [
   {
     college: "Eduvos",
-    degree: "BSC IT Software Engineering",
+    degree: "BSC IT",
     grade: "Cum Laude (90%)",
     year_finished: new Date("2022-12-9"),
     description:
@@ -41,8 +41,8 @@ import { IoSchoolOutline } from "react-icons/io5";
 import { MdOutlineGrade, MdOutlineRotate90DegreesCcw } from "react-icons/md";
 function EducationLabel(props: EducationData) {
   return (
-    <div className='h-fit bg-navy2 rounded-lg px-4 py-1 md:h-[15rem] project-view '>
-      <div className='flex flex-col items-center justify-center text-text space-x-8 md:flex-row md:h-[10rem]'>
+    <div className='h-fit bg-navy2 rounded-lg px-4 py-4 md:h-[15rem] project-view'>
+      <div className='flex flex-col items-center justify-start text-text md:space-x-8 md:flex-row md:h-[10rem] md:justify-center md:items-center'>
         <h1 className='flex items-center justify-center gap-2 text-2xl'>
           <IoSchoolOutline
             className='cursor-pointer hover:animate-spin'
