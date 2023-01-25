@@ -9,7 +9,6 @@ const Footer = () => {
     (async () => {
       const res = await fetch("https://api.github.com/users/milahnmartin");
       const data = await res.json();
-      console.log(data);
       setgithubdata(data?.public_repos);
     })();
   }, []);
@@ -22,7 +21,7 @@ const Footer = () => {
         onClick={handleFooterClick}
         className='group text-text/60 cursor-pointer hover:text-secondary animation-all duration-500 space-y-2 flex flex-col justify-center items-center'
       >
-        Built by Milahn Martin &copy; {new Date().getFullYear()} <br />{" "}
+        Built by Milahn Martin &copy; {new Date().getFullYear()} <br />
         <VscGithubAlt className='group-hover:text-secondary group-hover:animate-pulse animation-all duration-500' />
         Git Repos: {githubdata}
       </h1>

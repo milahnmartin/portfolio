@@ -42,7 +42,7 @@ import { MdOutlineGrade, MdOutlineRotate90DegreesCcw } from "react-icons/md";
 function EducationLabel(props: EducationData) {
   return (
     <div className='h-fit bg-navy2 rounded-lg px-4 py-4 md:h-[15rem] project-view'>
-      <div className='flex flex-col items-center justify-start text-text md:space-x-8 md:flex-row md:h-[10rem] md:justify-center md:items-center'>
+      <div className='flex flex-col items-center w-full justify-center text-center text-text md:space-x-8 md:flex-row md:h-[10rem] md:justify-center md:items-center'>
         <h1 className='flex items-center justify-center gap-2 text-2xl'>
           <IoSchoolOutline
             className='cursor-pointer hover:animate-spin'
@@ -61,14 +61,15 @@ function EducationLabel(props: EducationData) {
           <MdOutlineGrade className='cursor-pointer hover:animate-spin' color='#64ffda' />
           Grade: {props.grade}
         </h1>
-        <h1 className='flex items-center justify-center gap-2 text-2xl'>
-          <BsCheck2 className='cursor-pointer hover:animate-spin' color='#64ffda' />
-          Completed: {props.year_finished.toDateString() || "Fri Dec 09 2022"}
+        <h1 className='flex flex-col w-fit items-center justify-center text-2xl md:gap-2'>
+          
+          <span className="flex items-center gap-2"><BsCheck2 className='cursor-pointer hover:animate-spin' color='#64ffda' /> Completed:</span> {props.year_finished?.toDateString() || "Fri Dec 09 2022"}
         </h1>
       </div>
-      <p className='text-text2 text-lg px-20 hover:text-secondary cursor-pointer transition-colors duration-700 text-center'>
+      <p className='text-text2 text-lg hover:text-secondary cursor-pointer transition-colors duration-700 text-center w-full'>
         {props.description}
       </p>
+
     </div>
   );
 }
