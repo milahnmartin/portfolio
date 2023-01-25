@@ -14,7 +14,7 @@ const Contacts = () => {
         <h2 className='w-full text-text/50 text-center text-[1.1rem] font-light md:w-[50%]'>
           Although I'm not currently looking for opportunites for 2023 while I complete by
           Honours Degree, I am open for 2024 offers. Intern and Junior Development jobs
-          specializing in Full Stack or Mobile Development.{" "}
+          specializing in Full Stack or Mobile Development. (React, React Native, KMM, Vue) etc.
         </h2>
         <a href='mailto:milahnmartin.develop@gmail.com'>
           <button className='py-4 px-6 outline-none animation-all duration-300 border-[1px] text-sm font-normal border-secondary rounded-md text-secondary hover:bg-secondary/10'>
