@@ -37,7 +37,7 @@ const NormalViewNav = () => {
       </h1>
 
       <button
-        onClick={() => window.open('/Milahn_Martin_-_Honours_Student.pdf')}
+        onClick={() => window.open('/mmartin_resume.pdf')}
         className="px-4 py-2 outline-none animation-all duration-300 border-[1px] border-secondary rounded-md text-secondary hover:bg-secondary/10"
       >
         Resume
