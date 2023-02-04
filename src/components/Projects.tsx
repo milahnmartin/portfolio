@@ -8,7 +8,7 @@ interface ProjectData {
 }
 const projectData: ProjectData[] = [
   {
-    title: 'LS Planner - (In Dev)',
+    title: 'LS Planner',
     techstack: [
       'Next.js',
       'TailwindCSS',
