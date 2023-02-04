@@ -18,7 +18,7 @@ const projectData: ProjectData[] = [
       'Tanstack Query',
       'React-Icons',
     ],
-    github: 'https://github.com/milahnmartin/eskom-time-compiler',
+    github: 'https://github.com/milahnmartin/loadshedding-time-compiler',
     link: 'https://lsplanner.info',
     slogan: 'Plan Your Meetings and Gaming Sessions around LoadShedding',
   },
