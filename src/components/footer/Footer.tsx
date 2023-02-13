@@ -23,7 +23,7 @@ const Footer = () => {
       >
         Built by Milahn Martin &copy; {new Date().getFullYear()} <br />
         <VscGithubAlt className="group-hover:text-secondary group-hover:animate-pulse animation-all duration-500" />
-        Git Repos: {githubdata}
+        Public Git Repos: {githubdata}
       </h1>
     </div>
   );
