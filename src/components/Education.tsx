@@ -2,7 +2,7 @@ type EducationData = {
   college: string;
   degree: string;
   grade: string;
-  year_finished: Date;
+  year_finished: Date | string;
   description: string;
 };
 const MyEducation: EducationData[] = [
@@ -18,7 +18,7 @@ const MyEducation: EducationData[] = [
     college: 'Eduvos',
     degree: 'BSC IT (SWE) Honours',
     grade: 'Present',
-    year_finished: new Date('2023-12-8'),
+    year_finished: 'Present',
     description:
       'Currently (2023) continuing my studying in the field of IT and will be done at the end of 2023.',
   },
@@ -72,15 +72,21 @@ function EducationLabel(props: EducationData) {
           />
           Grade: {props.grade}
         </h1>
-        <h1 className="flex flex-col w-fit items-center justify-center text-2xl md:gap-2">
+        <h1 className="flex flex-col w-fit items-center justify-center text-2xl md:gap-2 text-center">
           <span className="flex items-center gap-2">
             <BsCheck2
               className="cursor-pointer hover:animate-spin"
               color="#64ffda"
-            />{' '}
+            />
             Completed:
-          </span>{' '}
-          {props.year_finished?.toDateString() || 'Cant Parse Date :)'}
+          </span>
+          {typeof props.year_finished === 'string'
+            ? props.year_finished
+            : props.year_finished.toLocaleString('en-ZA', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+              })}
         </h1>
       </div>
       <p className="text-text2 text-lg hover:text-secondary cursor-pointer transition-colors duration-700 text-center w-full">
