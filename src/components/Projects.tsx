@@ -31,6 +31,13 @@ const projectData: ProjectData[] = [
       'Portfolio Website you are currently on. This showcases information about myself.',
   },
   {
+    title: 'Twitter Clone',
+    techstack: ['NextJS', 'Typescript', 'TaildwindCSS', 'Sanity'],
+    github: 'https://github.com/milahnmartin/twitter-clone-nextjs-sanity',
+    slogan:
+      'A Twitter Clone built with NextJS, Typescript, TaildwindCSS and Sanity',
+  },
+  {
     title: 'EduBooks',
     techstack: ['Java', 'Android Studio', 'SQLITE'],
     github: 'https://github.com/milahnmartin/edubooks-android-textbookselling',
@@ -41,18 +48,6 @@ const projectData: ProjectData[] = [
     techstack: ['MySQL', 'PHP', 'HTML5', 'CSS3', 'JavaScript'],
     github: 'https://github.com/milahnmartin/energydrink-ecommerce',
     slogan: 'E-Commerce Site To Sell and Buy Energy Drinks',
-  },
-  {
-    title: 'Phase Three Admin Panel',
-    techstack: ['Firebase', 'React', 'Javascript', 'Material UI', 'Redux'],
-    github: 'https://github.com/milahnmartin/Phase-Three-AdminPanel',
-    slogan: 'Admin Panel To Handle Clients Subscriptions',
-  },
-  {
-    title: 'Fingerprint ZA',
-    techstack: ['Vanilla JS', 'HTML5', 'CSS3', 'Firebase', 'JQuery'],
-    github: 'https://github.com/milahnmartin/fingerprint',
-    slogan: 'Trying to find your favourite E Sports Players settings ?',
   },
 ];
 
