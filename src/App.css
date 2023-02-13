@@ -48,3 +48,11 @@ html {
 ::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
+
+
+#here-some-proj:hover{
+  cursor:pointer;
+  filter: drop-shadow(0 0 0.2rem #64ffda);
+  text-decoration: underline;
+}
+

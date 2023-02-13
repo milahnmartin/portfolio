@@ -21,12 +21,6 @@ const SidebarLeft = () => {
           window.open('https://www.linkedin.com/in/milahn-martin-376416203/')
         }
       />
-      <AiFillTwitterCircle
-        className="cursor-pointer hover:scale-110 transition-all duration-100"
-        size={30}
-        fill="#495670"
-        onClick={() => window.open('https://twitter.com/Ultrafyy')}
-      />
       <AiFillInstagram
         className="cursor-pointer hover:scale-110 transition-all duration-100"
         size={30}

@@ -6,7 +6,7 @@ const About = () => {
     >
       <h1 className="text-text flex items-center justify-start space-x-4">
         <span className="text-secondary text-2xl">01.</span>About Me
-        <hr className="w-[10rem] text-text2" />
+        <hr className="w-[6rem] text-text2" />
       </h1>
       <div className="flex w-full pt-6 flex-col md:flex-row">
         <p className="text-text2 text-2xl w-full px-4 text-left md:w-[60%]">

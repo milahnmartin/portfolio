@@ -37,6 +37,7 @@ const ProjectLabel = ({
         <div className="w-1/2 h-full flex items-center justify-end space-x-4">
           {github && (
             <RiGithubLine
+              title="View Source Code"
               onClick={handleGithub}
               className="text-text hover:text-secondary animation-all duration-500 cursor-pointer"
               size={25}
@@ -45,6 +46,7 @@ const ProjectLabel = ({
 
           {link && (
             <FiExternalLink
+              title="Live Preview"
               onClick={handlePreview}
               className=" text-text hover:text-secondary animation-all duration-500 cursor-pointer"
               size={25}

@@ -32,7 +32,7 @@ function Education() {
     >
       <h1 className="text-text flex items-center justify-start space-x-4 mb-5">
         <span className="text-secondary text-2xl">03.</span>Education
-        <hr className="w-[10rem] text-text2" />
+        <hr className="w-[6rem] text-text2" />
       </h1>
       <div className="h-fit w-full block">
         {MyEducation.map((education: EducationData) => {
