@@ -1,11 +1,15 @@
-import { useEffect, useState } from "react";
-import { FaDev } from "react-icons/fa";
-import MobileViewNav from "./MobileViewNav";
-import NormalViewNav from "./NormalViewNav";
-const Navbar = () => {
+import { useEffect, useState } from 'react';
+import { FaDev } from 'react-icons/fa';
+import MobileViewNav from './MobileViewNav';
+import NormalViewNav from './NormalViewNav';
+import clsx from 'clsx';
+type Props = {
+  checkBottom: boolean;
+};
+const Navbar = ({ checkBottom }: Props) => {
   const [mobile, setMobile] = useState<boolean>(false);
   useEffect(() => {
-    window.addEventListener("resize", () => {
+    window.addEventListener('resize', () => {
       if (window.innerWidth < 768) {
         setMobile(true);
       } else {
@@ -13,7 +17,7 @@ const Navbar = () => {
       }
     });
     return () => {
-      window.removeEventListener("resize", () => {});
+      window.removeEventListener('resize', () => {});
     };
   }, []);
   useEffect(() => {
@@ -25,17 +29,19 @@ const Navbar = () => {
   }, []);
   const scrollToComponent = (component: string) => {
     const element = document.getElementById(component);
-    element?.scrollIntoView({ behavior: "smooth" });
+    element?.scrollIntoView({ behavior: 'smooth' });
   };
   return (
-    <div className='w-full h-[10vh] text-white font-mono font-black flex p-6 sticky top-0 bg-primary z-[999]'>
-      <div className='h-full w-fit flex items-center justify-start '>
+    <div className="w-full h-[10vh] text-white font-mono font-black flex p-6 sticky top-0 bg-primary z-[999]">
+      <div className="h-full w-fit flex items-center justify-start ">
         <FaDev
-          id='logo'
-          fill='#64ffda'
+          id="logo"
+          fill="#64ffda"
           size={50}
-          onClick={() => scrollToComponent("home-top")}
-          className='cursor-pointer'
+          onClick={() => scrollToComponent('home-top')}
+          className={clsx('cursor-pointer', {
+            'animate-spin bottom-class': checkBottom,
+          })}
         />
       </div>
       {mobile ? <MobileViewNav /> : <NormalViewNav />}

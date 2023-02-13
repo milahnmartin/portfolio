@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Lottie from 'react-lottie-player';
 import './App.css';
 import lottieJson from './assets/98093-pool-chart-loading.json';
@@ -13,7 +13,8 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
-
+  const [bottom, setBottom] = useState<boolean>(false);
+  const innerRef = useRef() as any;
   useEffect(() => {
     const myLoadingTimeout = setTimeout(() => {
       setLoading(false);
@@ -34,9 +35,21 @@ function App() {
       </div>
     );
   }
+
+  const handleBottomCheck = () => {
+    if (innerRef.current) {
+      const { scrollTop, scrollHeight, clientHeight } = innerRef.current;
+      const isBottom = scrollHeight - scrollTop === clientHeight;
+      if (isBottom) {
+        setBottom(true);
+      } else {
+        setBottom(false);
+      }
+    }
+  };
   return (
     <div className="h-screen w-screen bg-primary overflow-x-hidden font-mono flex flex-col">
-      <Navbar />
+      <Navbar checkBottom={bottom} />
       <div className="w-full h-full flex">
         <div className="h-[90vh] w-[5%] flex-col items-center justify-center text-text-2 hidden md:flex">
           <SidebarLeft />
@@ -44,6 +57,8 @@ function App() {
         <div
           id="data-container"
           className="h-[90vh] w-full px-4 md:w-[90%] md:overflow-y-scroll space-y-56"
+          ref={innerRef}
+          onScroll={handleBottomCheck}
         >
           <Welcome />
           <About />
