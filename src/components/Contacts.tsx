@@ -12,10 +12,8 @@ const Contacts = () => {
       <div className="flex w-fit h-full p-4 flex-col items-center space-y-10">
         <h1 className="text-text text-6xl text-center">Get In Touch</h1>
         <h2 className="w-full text-text/50 text-center text-[1.1rem] font-light md:w-[50%]">
-          Although I'm not currently looking for opportunites for 2023 while I
-          complete by Honours Degree, I am open for 2024 offers. Intern and
-          Junior Development jobs specializing in Full Stack or Mobile
-          Development. (React, React Native, KMM, Vue) etc.
+          I'm always open to discussing new projects, creative ideas or
+          opportunities to be part of your visions. Feel free to contact me.
         </h2>
         <a href="mailto:milahnmartin.develop@gmail.com">
           <button className="py-4 px-6 outline-none animation-all duration-300 border-[1px] text-sm font-normal border-secondary rounded-md text-secondary hover:bg-secondary/10">
