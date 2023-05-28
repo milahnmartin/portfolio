@@ -10,11 +10,9 @@ const About = () => {
       </h1>
       <div className="flex w-full pt-6 flex-col md:flex-row">
         <p className="text-text2 text-2xl w-full px-4 text-left md:w-[60%]">
-          I'm Milahn Martin, a third year Software Engineering Student at Eduvos
-          in Pretoria. I'm finishing my degree this year (2022) and will pursue
-          a Honours degree in 2023. I love exploring new tech stacks and
-          collaborating with other developers. I built tons of projects in my
-          free time and can be viewed on my{' '}
+          I'm Milahn Martin, a fourth year Software Engineering Student at
+          Eduvos in Midrand. I finished my degree in 2023 and currently doing my
+          Honours in Software Engineering. My public projects can be viewed here{' '}
           <a
             id="github-about"
             target="_blank"
@@ -23,8 +21,8 @@ const About = () => {
           >
             github
           </a>
-          . When im not working on projects I like playing various amount of
-          sports like tennis, cricket and rugby and also love hiking.
+          . Some of my hobbies include: tennis, gym, GTA V Development and
+          travelling.
           <br />
           <h1 className="pt-10 text-text font-mono font-light text-xl">
             Here are a few technologies I've been working with Recently:
@@ -59,6 +57,9 @@ const About = () => {
             </li>
             <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105">
               Supabase
+            </li>
+            <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105">
+              Boostrap
             </li>
           </ul>
         </p>
