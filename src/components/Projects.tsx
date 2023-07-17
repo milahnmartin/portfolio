@@ -19,7 +19,7 @@ const projectData: ProjectData[] = [
       'React-Icons',
     ],
     github: 'https://github.com/milahnmartin/loadshedding-time-planner',
-    link: 'https://lsplanner.info',
+    link: 'https://eskom-time-compiler-jths-milahnmartin.vercel.app/',
     slogan: 'Plan Your Meetings and Gaming Sessions around LoadShedding',
   },
   {
