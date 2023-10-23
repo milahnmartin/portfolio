@@ -8,7 +8,9 @@ const Experience = () => {
         <span className="text-secondary text-2xl">02.</span>Experience
         <hr className="w-[10rem] text-text2" />
       </h1>
-      <div className="flex w-full pt-6"></div>
+      <div className="flex w-full pt-6">
+        <h1>FREI PTY LTD</h1>
+      </div>
     </div>
   );
 };

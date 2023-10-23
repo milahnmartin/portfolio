@@ -10,9 +10,12 @@ const About = () => {
       </h1>
       <div className="flex w-full pt-6 flex-col md:flex-row">
         <p className="text-text2 text-2xl w-full px-4 text-left md:w-[60%]">
-          I'm Milahn Martin, a fourth year Software Engineering Student at
-          Eduvos in Midrand. I finished my degree in 2023 and currently doing my
-          Honours in Software Engineering. My public projects can be viewed here{' '}
+          I'm Milahn Martin, a recent graduate with a degree in Software
+          Engineering from Eduvos in Midrand, which I completed in 2023.
+          Currently, I'm pursuing my Honours in Software Engineering. You can
+          explore my public projects in my portfolio. Additionally, I'm in the
+          ninth month of my internship as I work towards further enhancing my
+          skills and knowledge in the field.{' '}
           <a
             id="github-about"
             target="_blank"
@@ -21,11 +24,11 @@ const About = () => {
           >
             github
           </a>
-          . Some of my hobbies include: tennis, gym, GTA V Development and
-          travelling.
+          . Some of my hobbies include: tennis, gym, paddle tennis, side
+          projects and travelling.
           <br />
           <h1 className="pt-10 text-text font-mono font-light text-xl">
-            Here are a few technologies I've been working with Recently:
+            Here are a few technologies I've been working with:
           </h1>
           <ul className="ml-4 mt-5 text-xl flex flex-wrap justify-start w-[50%] h-fit content-start gap-3">
             <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105">
@@ -42,6 +45,21 @@ const About = () => {
             </li>
             <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc">
               Next.js
+            </li>
+            <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc">
+              Node.js
+            </li>
+            <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc">
+              Bun.js
+            </li>
+            <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc">
+              Java
+            </li>
+            <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc">
+              Kotlin
+            </li>
+            <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc">
+              Flutter
             </li>
             <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc">
               Vite.js
@@ -65,11 +83,8 @@ const About = () => {
         </p>
 
         <div className="inline h-fit w-full rounded-xl p-2 animation-all duration-700 relative z-[500] md:w-[35%]">
-          <img
-            className="rounded-md hover:filter-none group animation-all duration-500 group md:hue-rotate-180"
-            src="/logo.jpg"
-          />
-          <span className="absolute w-[100%] h-[95%] border-2 border-secondary right-[-0.6rem] -bottom-4 rounded-md z-[-1] md:w-[70%] md:right-[5rem]"></span>
+          <img src="/milahn-hd.jpg" className="w-[50vh] rounded-md" />
+          <span className="absolute w-[100%] h-[98%] border-2 border-secondary right-[-0.6rem] -bottom-4 rounded-md z-[-1] md:w-[80%] md:right-[5rem]"></span>
         </div>
       </div>
     </div>

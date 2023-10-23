@@ -49,6 +49,13 @@ const projectData: ProjectData[] = [
     github: 'https://github.com/milahnmartin/energydrink-ecommerce',
     slogan: 'E-Commerce Site To Sell and Buy Energy Drinks',
   },
+  {
+    title: 'Tripwiz UI',
+    techstack: ['Firebase', 'TailwindCSS', 'React.JS', 'Leaflet.JS'],
+    github: 'https://github.com/Milahn-Henri-Louis-Irwin-ITBSA/tripwiz-ui',
+    slogan:
+      'Alerting system for South Africans to use in emergencies, check if you route is safe to travel',
+  },
 ];
 
 const Projects = () => {
