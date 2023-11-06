@@ -56,6 +56,14 @@ const projectData: ProjectData[] = [
     slogan:
       'Alerting system for South Africans to use in emergencies, check if you route is safe to travel',
   },
+  {
+    title: 'Tripwiz Backend - SOA Architecture',
+    techstack: ['Firebase Admin', 'Node.js', 'Typescript', 'Express.js', 'PM2'],
+    github:
+      'https://github.com/orgs/Milahn-Henri-Louis-Irwin-ITBSA/repositories',
+    slogan:
+      'Alerting system for South Africans to use in emergencies, check if you route is safe to travel',
+  },
 ];
 
 const Projects = () => {
