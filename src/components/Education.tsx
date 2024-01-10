@@ -18,9 +18,9 @@ const MyEducation: EducationData[] = [
     college: 'Eduvos',
     degree: 'BSC IT (SWE) Honours',
     grade: 'Present',
-    year_finished: 'Present',
+    year_finished: new Date('2023-11-21'),
     description:
-      'Pursuing my Honours Degree in Information Technology Majoring in Software Engineering and will be graduating in 2024.',
+      'Obtained my Honours Degree in Information Technology Majoring in Software Engineering with a 76% average.',
   },
 ];
 
