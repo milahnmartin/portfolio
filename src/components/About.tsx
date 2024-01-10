@@ -10,12 +10,8 @@ const About = () => {
       </h1>
       <div className="flex w-full pt-6 flex-col md:flex-row">
         <p className="text-text2 text-2xl w-full px-4 text-left md:w-[60%]">
-          I'm Milahn Martin, a recent graduate with a degree in Software
-          Engineering from Eduvos in Midrand, which I completed in 2023.
-          Currently, I'm pursuing my Honours in Software Engineering. You can
-          explore my public projects in my portfolio. Additionally, I'm in the
-          ninth month of my internship as I work towards further enhancing my
-          skills and knowledge in the field.{' '}
+         
+I'm Milahn Martin, a recent Honours graduate with a degree in Software Engineering from Eduvos in Midrand, which I completed in 2023. Currently, I'm seeking opportunities for a Junior Full Stack or Backend Engineer position to apply and further develop my skills. You can explore my public projects in my portfolio. Additionally, I have gained valuable experience during my nine-month internship, contributing to my continuous growth in the field.
           <a
             id="github-about"
             target="_blank"
