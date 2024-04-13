@@ -16,9 +16,16 @@ const Welcome = () => {
       </h1>
       <p className="text-text font-mono font-bold">
         I’m a junior software engineer specializing in building (and
-        occasionally designing) exceptional digital experiences.
-        <br /> Currently, I'm focusing on building scalable web and mobile
-        applications, using the latest tech stacks.
+        occasionally designing) exceptional digital experiences. Currently I’m
+        focused on building accessible, human-centered products for {''}
+        <a
+          className="text-secondary hover:underline"
+          href="https://yoco.com.au/"
+          target="_blank"
+        >
+          Yoco
+        </a>
+        .
       </p>
       <button
         onClick={handleGithubClick}
