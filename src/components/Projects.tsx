@@ -80,10 +80,10 @@ const Projects = () => {
         id="here-some-proj"
         className="text-secondary text-[1.3rem] font-normal text-center my-2 tracking-tighter"
       >
-        Here are some projects I've built
+        Here are some side-projects I've built
       </p>
       <div className="flex w-full px-10 h-full p-4 gap-3 flex-wrap content-center justify-center">
-        {projectData!.map((project: ProjectData) => (
+        {projectData.map((project: ProjectData) => (
           <ProjectLabel
             key={project?.title}
             title={project?.title}

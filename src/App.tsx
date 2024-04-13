@@ -11,6 +11,7 @@ import SidebarRight from './components/SidebarRight';
 import Welcome from './components/Welcome';
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
+import Experience from './components/Experience';
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
   const [bottom, setBottom] = useState<boolean>(false);
@@ -64,6 +65,7 @@ function App() {
           <About />
           <Projects />
           <Education />
+          <Experience />
           <Contacts />
           <Footer />
         </div>

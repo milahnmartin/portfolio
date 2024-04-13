@@ -6,7 +6,7 @@ const Contacts = () => {
     >
       <h1 className="text-text flex items-center justify-start space-x-4">
         <span className="text-secondary text-2xl font-light tracking-wide">
-          04. What's Next?
+          05. What's Next?
         </span>
       </h1>
       <div className="flex w-fit h-full p-4 flex-col items-center space-y-10">

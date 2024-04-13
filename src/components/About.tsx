@@ -10,8 +10,15 @@ const About = () => {
       </h1>
       <div className="flex w-full pt-6 flex-col md:flex-row">
         <p className="text-text2 text-2xl w-full px-4 text-left md:w-[60%]">
-         
-I'm Milahn Martin, a recent Honours graduate with a degree in Software Engineering from Eduvos in Midrand, which I completed in 2023. Currently, I'm seeking opportunities for a Junior Full Stack or Backend Engineer position to apply and further develop my skills. You can explore my public projects in my portfolio. Additionally, I have gained valuable experience during my nine-month internship, contributing to my continuous growth in the field.
+          Honours graduate with expertise in both front-end and back-end
+          development. Recently, I had the opportunity to work with Yoco
+          Technologies PTY LTD, a prominent startup in the industry, where I
+          contributed to the development and enhancement of their intricate and
+          dynamic website, as well as building backend services and tools for
+          their commercial team. My strong background and passion for learning
+          drive me to excel in delivering high-quality solutions for clients and
+          continuously expanding my skill set in the ever-evolving tech
+          landscape. My github can be found at{' '}
           <a
             id="github-about"
             target="_blank"
@@ -21,7 +28,7 @@ I'm Milahn Martin, a recent Honours graduate with a degree in Software Engineeri
             github
           </a>
           . Some of my hobbies include: tennis, gym, paddle tennis, side
-          projects and travelling.
+          projects and traveling.
           <br />
           <h1 className="pt-10 text-text font-mono font-light text-xl">
             Here are a few technologies I've been working with:
@@ -52,13 +59,7 @@ I'm Milahn Martin, a recent Honours graduate with a degree in Software Engineeri
               Java
             </li>
             <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc">
-              Kotlin
-            </li>
-            <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc">
               Flutter
-            </li>
-            <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc">
-              Vite.js
             </li>
             <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105">
               Golang
@@ -71,9 +72,6 @@ I'm Milahn Martin, a recent Honours graduate with a degree in Software Engineeri
             </li>
             <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105">
               Supabase
-            </li>
-            <li className="mr-4 hover:text-secondary cursor-pointer animation-all duration-500 list-disc hover:scale-105">
-              Boostrap
             </li>
           </ul>
         </p>
