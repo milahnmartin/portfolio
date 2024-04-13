@@ -20,7 +20,7 @@ const Welcome = () => {
         focused on building accessible, human-centered products for {''}
         <a
           className="text-secondary hover:underline"
-          href="https://yoco.com.au/"
+          href="https://yoco.com/"
           target="_blank"
         >
           Yoco
