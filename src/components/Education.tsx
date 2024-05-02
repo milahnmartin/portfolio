@@ -34,7 +34,7 @@ function Education() {
         <span className="text-secondary text-2xl">03.</span>Education
         <hr className="w-[6rem] text-text2" />
       </h1>
-      <div className="h-fit w-full block">
+      <div className="flex flex-wrap gap-5 justify-center">
         {MyEducation.map((education: EducationData) => {
           return <EducationLabel {...education} />;
         })}
@@ -49,30 +49,30 @@ import { IoSchoolOutline } from 'react-icons/io5';
 import { MdOutlineGrade, MdOutlineRotate90DegreesCcw } from 'react-icons/md';
 function EducationLabel(props: EducationData) {
   return (
-    <div className="h-fit bg-navy2 rounded-lg px-4 py-4 md:h-[15rem] project-view mb-5">
-      <div className="flex flex-col items-center w-full justify-center text-center text-text md:space-x-8 md:flex-row md:h-[10rem] md:justify-center md:items-center">
-        <h1 className="flex items-center justify-center gap-2 text-2xl">
+    <div className="bg-navy2 rounded-lg p-8 project-view mb-5 w-full md:w-1/3">
+      <div className="flex flex-col items-start w-full text-text gap-3 ">
+        <h1 className="flex items-center justify-center gap-2 text-lg md:text-2xl">
           <IoSchoolOutline
             className="cursor-pointer hover:animate-spin"
             color="#64ffda"
           />
           College: {props.college}
         </h1>
-        <h1 className="flex items-center justify-center gap-2 text-2xl">
+        <h1 className="flex items-center justify-center gap-2 text-lg md:text-2xl">
           <MdOutlineRotate90DegreesCcw
             className="cursor-pointer hover:animate-spin"
             color="#64ffda"
           />
           Degree: {props.degree}
         </h1>
-        <h1 className="flex items-center justify-center gap-2 text-2xl">
+        <h1 className="flex items-center justify-center gap-2 text-lg md:text-2xl">
           <MdOutlineGrade
             className="cursor-pointer hover:animate-spin"
             color="#64ffda"
           />
           Grade: {props.grade}
         </h1>
-        <h1 className="flex flex-col w-fit items-center justify-center text-2xl md:gap-2 text-center">
+        <h1 className="flex w-fit items-center justify-center text-lg md:text-2xl">
           <span className="flex items-center gap-2">
             <BsCheck2
               className="cursor-pointer hover:animate-spin"
@@ -88,10 +88,10 @@ function EducationLabel(props: EducationData) {
                 day: 'numeric',
               })}
         </h1>
+        <p className="text-text2 p-8 text-lg hover:text-secondary cursor-pointer transition-colors duration-700 w-full">
+          {props.description}
+        </p>
       </div>
-      <p className="text-text2 text-lg hover:text-secondary cursor-pointer transition-colors duration-700 text-center w-full">
-        {props.description}
-      </p>
     </div>
   );
 }
