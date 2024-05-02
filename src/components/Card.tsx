@@ -14,7 +14,7 @@ function Card({ company, stack_uses, company_url, descripion }: Props) {
       </div>
 
       <div className="w-full mt-4 flex flex-col">
-        <h1 className="text-text text-2xl font-semibold">Stack Uses</h1>
+        <h1 className="text-text text-2xl font-semibold">Stack Used</h1>
         <ul className="w-full space-y-2 mt-2 text-text/50 text-sm font-light">
           {stack_uses.map((stack, index) => (
             <li key={index}>{stack}</li>
