@@ -27,7 +27,7 @@ const About = () => {
           >
             github
           </a>
-          . Some of my hobbies include: tennis, gym, paddle tennis, side
+          . Some of my hobbies include: tennis, gym, paddle-tennis, side
           projects and traveling.
           <br />
           <h1 className="pt-10 text-text font-mono font-light text-xl">
