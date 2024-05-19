@@ -31,7 +31,7 @@ function Education() {
         id="education"
         className="w-full h-fit font-bold text-3xl font-mono flex flex-col items-center justify-start"
       >
-        <h1 className="text-text flex items-center justify-start space-x-4 mb-5">
+        <h1 className="text-text flex items-center justify-start self-start space-x-4 mb-5">
           <span className="text-secondary text-2xl">03.</span>Education
           <hr className="w-[6rem] text-text2" />
         </h1>

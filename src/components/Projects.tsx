@@ -82,7 +82,7 @@ const Projects = () => {
         id="projects"
         className="w-full h-fit font-bold text-3xl font-mono flex flex-col items-center justify-start"
       >
-        <h1 className="text-text flex items-center justify-start space-x-4">
+        <h1 className="text-text flex items-center justify-start self-start space-x-4">
           <span className="text-secondary text-2xl">02.</span>Projects
           <hr className="w-[6rem] text-text2" />
         </h1>
