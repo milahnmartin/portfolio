@@ -1,5 +1,5 @@
 import Card from './Card';
-
+import Section from './Section';
 const experience = [
   {
     company: 'TeamGeek PTY LTD',
@@ -44,26 +44,28 @@ const experience = [
 
 const Experience = () => {
   return (
-    <section
-      id="experience"
-      className="w-full h-fit font-bold text-3xl font-mono flex flex-col"
-    >
-      <h1 className="text-text flex items-center justify-start space-x-4">
-        <span className="text-secondary text-2xl">04.</span>Experience
-        <hr className="w-[5rem] text-text2" />
-      </h1>
-      <div className="flex flex-wrap gap-8 pt-6 justify-center">
-        {experience.map((exp, index) => (
-          <Card
-            key={index}
-            company={exp.company}
-            stack_uses={exp.stack_uses}
-            company_url={exp.company_url}
-            descripion={exp.description}
-          />
-        ))}
-      </div>
-    </section>
+    <Section>
+      <section
+        id="experience"
+        className="w-full h-fit font-bold text-3xl font-mono flex flex-col"
+      >
+        <h1 className="text-text flex items-center justify-start space-x-4">
+          <span className="text-secondary text-2xl">04.</span>Experience
+          <hr className="w-[5rem] text-text2" />
+        </h1>
+        <div className="flex flex-wrap gap-8 justify-center">
+          {experience.map((exp, index) => (
+            <Card
+              key={index}
+              company={exp.company}
+              stack_uses={exp.stack_uses}
+              company_url={exp.company_url}
+              descripion={exp.description}
+            />
+          ))}
+        </div>
+      </section>
+    </Section>
   );
 };
 

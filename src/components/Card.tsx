@@ -7,7 +7,7 @@ type Props = {
 
 function Card({ company, stack_uses, company_url, descripion }: Props) {
   return (
-    <div className="p-6 w-full md:w-1/3 bg-navy2 rounded-lg shadow-md flex flex-col items-center justify-between transition-transform duration-300 hover:scale-105">
+    <div className="p-6 w-[400px] aspect-square bg-navy2 rounded-lg shadow-md flex flex-col items-center justify-between transition-transform duration-300 hover:scale-105">
       <div className="flex flex-col items-start justify-center">
         <h1 className="text-text text-3xl font-bold">{company}</h1>
         <h2 className="text-text/50 text-sm font-light mt-2">{descripion}</h2>

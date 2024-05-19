@@ -17,7 +17,6 @@ const ProjectLabel = ({
   slogan,
   github,
 }: ProjectData) => {
-  const [view, setView] = useState<boolean>(false);
   const handleGithub = () => {
     window.open(github, '_blank');
   };
