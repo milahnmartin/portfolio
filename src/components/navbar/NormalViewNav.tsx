@@ -37,7 +37,7 @@ const NormalViewNav = () => {
         <span className="text-secondary">05.</span>Contact
       </h1>
       <button
-        onClick={() => window.open('/mmartin_resume.pdf')}
+        onClick={() => window.open('/mmresume_2.pdf')}
         className="px-4 py-2 outline-none animation-all duration-300 border-[1px] border-secondary rounded-md text-secondary hover:bg-secondary/10"
       >
         Resume
